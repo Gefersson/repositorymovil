@@ -1,10 +1,20 @@
-Usar Gradle y su estructura recomendada de proyecto
-IDEs y editores de texto
-Los layouts XML son también código, trata de organizarlos correctamente
-Usar estilos para evitar atributos duplicados en XML layouts
-Usar varios archivos de estilos para evitar crear un único archivo de estilos enorme
-Mantener el archivo colors.xml claro y conciso, definiendo la paleta de colores
-Mantener el archivo dimens.xml claro y conciso, definiendo constantes genéricas
+
+dependencies {
+	        implementation 'com.github.Gefersson:repositorymovil:Tag'
+	}
+  
+  
+  <dependency>
+	    <groupId>com.github.Gefersson</groupId>
+	    <artifactId>repositorymovil</artifactId>
+	    <version>Tag</version>
+	</dependency>
+  
+  libraryDependencies += "com.github.Gefersson" % "repositorymovil" % "Tag"
+  
+  :dependencies [[com.github.Gefersson/repositorymovil "Tag"]]	
+
+
 
 Coloca tu Android SDK en algún lugar de tu directorio home o en algún sitio independiente de cualquier otra aplicación. Algunas distribuciones de IDEs incluyen el SDK en la instalación, y es posible que lo coloque en el mismo directorio donde se encuentra el IDE. Esto puede ser contraproducente cuando necesites actualizar (o reinstalar) el IDE, ya que podrías perder la instalación del SDK, y forzándote a un nuevo largo y tedioso proceso de descarga
   <!-- Base application theme. -->
